@@ -1,24 +1,25 @@
-(function() {
+(function () {
+  "use strict";
 
+var Module = (function () {
+  function Module() {
 
-  var Person = (function () {
-    function Person() {
+  }
+  Module.prototype = {
 
-    }
-    Person.prototype = {
+  };
 
-    };
-    return Person;
-  }());
-
-  var Animal = (function () {
-    function Animal() {
-
-    }
-    Animal.prototype = {
-
-    };
-
-    return Animal;
-  }());
+  return Module;
 }());
+
+var Animal = (function () {
+  function Animal() {
+
+  }
+  Animal.prototype = {
+
+  };
+
+  return Animal;
+}());
+})
