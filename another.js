@@ -22,4 +22,15 @@ var Animal = (function () {
 
   return Animal;
 }());
+
+var Person = (function () {
+  function Person() {
+
+  }
+  Person.prototype = {
+
+  };
+
+  return Person;
+}());
 })
